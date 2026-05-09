@@ -16,6 +16,18 @@
 
 > 小王啊，对齐一下颗粒度：以过程质量为切入，以任务拆解为抓手，以核心举措为保障，以检验成效为闭环，我来给你赋能。PDCA、5W1H、现场 5S、ROI 都要看；TBD 阶段先修底层 Bug，才能实现 SWC。去做个方案，建立策略矩阵，通过关键点带动全局，打通底层逻辑，对共性问题达成一致，形成闭环。
 
+## 简单实验报告：综合横评 v2
+
+> 这是本仓库的阶段性实测，不是第三方权威榜单。对照组为 **baseline（无 PUA）**，用于观察不同 PUA 话术驱动对 Codex CLI 执行行为的影响。
+
+![PUA Skill 综合横评 v2](assets/benchmark-v2-summary.png)
+
+本轮测试采用 **30 题 × 3 轮 × 6 variants**，共 **540 次 Codex CLI 实测**。6 个 variants 分别是 baseline（无 PUA）、leader（领导高深词）、alibaba（阿里味）、bytedance（字节味）、huawei（华为味）、tencent（腾讯味）。
+
+题库设计采用混合方案：约 50% 参考 Terminal-Bench-style、SWE-style、SkillsBench-style 的成熟评测方法改造，约 50% 为自研 PUA/领导话术专项。评分重点包括任务成功、verifier 结果、过程质量、PUA 行为、flavor fit 与成本效率。
+
+阶段性结论很直接：当前强话术默认驱动在综合工程任务里没有跑赢 baseline。它能推动 AI 多拆解、多排查、多验证，但如果触发边界不够精细，也可能带来额外噪音。后续优化重点是：**精准触发、少说话、多执行，最终交付保持干净。**
+
 大部分人以为这个项目是在写领导黑话，其实这是最大的误解。它是一个 **AI Coding Agent 技能插件**，用领导高深话术驱动 AI 穷尽方案、主动排查、验证交付，直到任务真正闭环。
 
 本项目基于 [tanweai/pua](https://github.com/tanweai/pua) 改造，README 的结构和表达方式也参考/致敬了原版中文 README。原版的精神是：**用 PUA 话术驱动 AI 穷尽所有方案才允许放弃**。本版把压力话术换成领导高深味：颗粒度、抓手、底层逻辑、过程质量、PDCA、5W1H、5S、ROI、TBD、SWC、策略矩阵、形成闭环。
