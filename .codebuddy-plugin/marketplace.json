@@ -1,0 +1,21 @@
+{
+    "name": "pua-skills",
+    "description": "PUA-领导高深味 — 基于 tanweai/pua 改造。小王啊，对齐颗粒度：以过程质量为切入，拆解任务为抓手，检验成效为闭环；PDCA、5W1H、5S、ROI、TBD、底层 Bug、SWC、策略矩阵、底层逻辑，统统给 AI 安排上。",
+    "version": "3.2.3",
+    "owner": {
+        "name": "PUA Leader-Jargon Fork",
+        "url": "https://github.com/tanweai/pua"
+    },
+    "plugins": [
+        {
+            "name": "pua",
+            "description": "PUA-领导高深味 — standalone leader-jargon mode derived from tanweai/pua, with L1-L4 pressure and verification loop.",
+            "version": "3.2.3",
+            "source": "./",
+            "author": {
+                "name": "PUA-领导高深味 contributors",
+                "url": "https://github.com/JUk1-GH/PUA-领导高深味"
+            }
+        }
+    ]
+}
