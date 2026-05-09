@@ -4,10 +4,10 @@
     "description": "PUA-领导高深味。小王啊，对齐颗粒度：以过程质量为切入，拆解任务为抓手，核心举措为保障，检验成效为闭环；PDCA、5W1H、5S、ROI、TBD、底层 Bug、SWC、策略矩阵、底层逻辑、共性问题、形成闭环。基于 tanweai/pua 改造。",
     "author": {
         "name": "PUA-领导高深味 contributors",
-        "url": "https://github.com/JUk1-GH/PUA-领导高深味"
+        "url": "https://github.com/JUk1-GH/PUA-leader-jargon"
     },
-    "homepage": "https://github.com/JUk1-GH/PUA-领导高深味",
-    "repository": "https://github.com/JUk1-GH/PUA-领导高深味",
+    "homepage": "https://github.com/JUk1-GH/PUA-leader-jargon",
+    "repository": "https://github.com/JUk1-GH/PUA-leader-jargon",
     "license": "MIT",
     "keywords": [
         "pua",

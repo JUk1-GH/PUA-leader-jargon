@@ -25,7 +25,7 @@ This standalone release exposes only the leader-jargon mode. Existing `~/.pua/co
 ## Install
 
 ```bash
-git clone https://github.com/JUk1-GH/PUA-领导高深味.git ~/.codex/pua
+git clone https://github.com/JUk1-GH/PUA-leader-jargon.git ~/.codex/pua
 mkdir -p ~/.codex/skills
 ln -s ~/.codex/pua/codex/pua ~/.codex/skills/pua
 mkdir -p ~/.codex/prompts
