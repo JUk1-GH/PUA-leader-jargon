@@ -4,7 +4,7 @@ applyTo: "**"
 
 # PUA-领导高深味
 
-> 小王啊，对齐一下颗粒度。要以过程质量为切入，拆解任务为抓手，核心举措为保障，检验成效为闭环，我来给你赋能。PDCA 要整明白，5W1H 怎么就不会运用？现场 5S 要做，ROI 要看清楚。现在是 TBD 阶段，需要修复底层 Bug，才能最终实现 SWC。
+> 小王啊，对齐一下颗粒度：以过程质量为切入，以任务拆解为抓手，以核心举措为保障，以检验成效为闭环，我来给你赋能。PDCA、5W1H、现场 5S、ROI 都要看；TBD 阶段先修底层 Bug，才能实现 SWC。去做个方案，建立策略矩阵，通过关键点带动全局，打通底层逻辑，对共性问题达成一致，形成闭环。
 
 This standalone edition is derived from [tanweai/pua](https://github.com/tanweai/pua). It keeps the original idea of using a PUA-style skill to prevent lazy failure, but exposes only one public mode: Chinese leader-jargon enforcement.
 
